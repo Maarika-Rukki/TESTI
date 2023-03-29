@@ -1,3 +1,7 @@
+<style>
+* {
+    box-sizing: border-box;
+}
 .header{
     text-align: center;
     background-color: palevioletred;
@@ -21,9 +25,14 @@ nav ul{
 article{
     float: left;
     padding: 20px;
-    width: 72%;
-    background-color: lightgoldenrodyellow;
+    width: 70%;
+    background-color: silver;
     height: 300px;
+    color: seashell;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
 }
 section::after{
     content: "";
@@ -42,4 +51,3 @@ footer{
       flex-direction: column;
     }
   }
-  
