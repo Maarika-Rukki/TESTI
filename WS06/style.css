@@ -4,31 +4,30 @@ a :hover{
 * {
     box-sizing: border-box;
 }
-.header{
+header{
     text-align: center;
     background-color: palevioletred;
-    color: lightgray;
-    font-size: 30px;
-    padding: 30px;
-    font: medium;
+    height: 100px;
+    color: antiquewhite;
 }
+
 nav{
     float: left;
     width: 30%;
     height: 300px;
-    background: darkgrey;
+    background-color: silver;
     padding: 20px;
 
 }
 nav ul{
     list-style-type: none;
-    padding: 1px;
+    padding: 0px;
 }
 article{
     float: left;
     padding: 20px;
-    width: 71%;
-    background-color: silver;
+    width: 70%;
+    background-color: slategray;
     height: 300px;
     color: seashell;
     font-size: large;
