@@ -4,22 +4,71 @@ a :hover{
 * {
     box-sizing: border-box;
 }
+h1{
+    color: antiquewhite;
+
+
+}
 header{
     text-align: center;
     background-color: palevioletred;
     height: 100px;
     color: antiquewhite;
+    
 }
-.topnav {
+.topnav{
     overflow: hidden;
     background-color: oldlace;
-    height: 30px;
+    height: 60px;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    padding: 5px;
     
 
-  }
-  
+}
+.topnav a{
+    float: left;
+    display: block;
+    display: inline;
+    padding: 10px;
+    color: dimgray;
+    
+
+}
+.topnav li{
+    display: inline;
+}
+.topnav a :hover{
+    background-color: cornsilk;
+}
+.topnav a:link{
+    color: indianred;
+}
+.topnav :active{
+    color: burlywood;
+    background-color: indianred;
+
+}
+.topnav ul{
+    list-style-type: none;
+    padding: 10;
+}
+.vertical{
+    float: left;
+    width: 20%;
+    height: 340px;
+    background: lightgrey;
+    padding-left: 10px;
+    padding-top: 10;
+
+
+}
+h2{
+    color: grey;
+    
+}
+
 nav{
     float: left;
     width: 30%;
@@ -32,29 +81,27 @@ nav ul{
     list-style-type: none;
     padding: 0px;
 }
-article{
+
+.column{
     float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: slategray;
+    text-align: center;
+    width: 40%;
     height: 300px;
-    color: seashell;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
+    margin: 0px;
+    padding: 5px;
 }
-section::after{
+* {
+    box-sizing: border-box;
+}
+
+.row::after{
     content: "";
     display: table;
     clear: both;
+
 }
-footer{
-    background-color: palevioletred;
-    padding: 10px;
-    text-align: center;
-    color: lightgray;
-}
+
+
 @media (max-width: 600px) {
     section {
       -webkit-flex-direction: column;
@@ -64,3 +111,14 @@ footer{
   .page-content{
     margin-left: 200px;
   }
+footer{
+    text-align: center;
+    color: lightslategray;
+    padding:10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: lightgrey;
+    
+}
