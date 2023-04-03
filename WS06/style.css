@@ -52,7 +52,7 @@ header{
 }
 .topnav ul{
     list-style-type: none;
-    padding: 10;
+    padding: 10px;
 }
 .vertical{
     float: left;
@@ -60,7 +60,7 @@ header{
     height: 340px;
     background: lightgrey;
     padding-left: 10px;
-    padding-top: 10;
+    padding-top: 10px;
 
 
 }
