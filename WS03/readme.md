@@ -1,1 +1,2 @@
-Verkkosivujen kehittmisen työpaja
+Verkkosivujen kehittämisen työpaja WS03
+
