@@ -1,1 +1,1 @@
-verkkosivujen kehittäminen opintojakson repositorio
+Verkkosivujen kehittäminen WS05
