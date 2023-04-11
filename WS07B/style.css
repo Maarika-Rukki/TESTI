@@ -1,0 +1,19 @@
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+
+}
+.row{
+    color: olive;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+body{
+    background-color: black;
+}
+.row{
+    color: ghostwhite;
+}
+.container{
+    color: ghostwhite;
+}
