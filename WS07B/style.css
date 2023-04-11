@@ -1,19 +1,18 @@
-.container{
+h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: brown;
-
+    text-align: center;
+    
 }
 .row{
-    color: olive;
+
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    
 }
-body{
-    background-color: black;
-}
+
 .row{
-    color: ghostwhite;
-}
-.container{
-    color: ghostwhite;
+    background-color: black;
+    color: bisque;
+    text-align: center;
 }
