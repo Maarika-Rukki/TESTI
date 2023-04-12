@@ -142,3 +142,16 @@ footer{
     color: darkslategrey;
     font-family: 'Times New Roman', Times, serif;
 }
+.wrapper{
+    display: flex;
+}
+.wrapper > div {
+    flex: 1;
+    text-align: center;
+}
+nav {
+    max-width: auto;
+    background-color: #e0e0e9;
+    margin: 0;
+    padding: 1em;
+  }
