@@ -5,7 +5,7 @@
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    
     border-radius: 4px;
     resize: vertical;
   }
@@ -31,7 +31,7 @@
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: ghostwhite;
     padding: 20px;
   }
   
@@ -61,3 +61,69 @@
       margin-top: 0;
     }
   }
+  .topnav{
+    overflow: hidden;
+    background-color: oldlace;
+    height: 60px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+  }
+  .topnav a{
+    float: left;
+    display: block;
+    display: inline;
+    padding: 10px;
+    color: dimgray;
+    
+
+}
+.topnav li{
+    display: inline;
+}
+.topnav a :hover{
+    background-color: cornsilk;
+}
+.topnav a:link{
+    color: indianred;
+}
+.topnav :active{
+    color: burlywood;
+    background-color: indianred;
+
+}
+.topnav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.vertical{
+    float: left;
+    width: 20%;
+    height: 340px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+
+}
+.navbar-text{
+  color: lightcoral;
+  
+}
+.navbar-brand{
+  color: mediumvioletred;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+  font-family: square Peg, cursive;
+  
+}
+h5{
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightcoral;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightcoral;
+}
+
