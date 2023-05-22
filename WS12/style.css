@@ -126,4 +126,17 @@ h2{
   font-family: Arial, Helvetica, sans-serif;
   color: lightcoral;
 }
-
+footer{
+   text-align: center;
+    color: mediumvioletred;
+    padding:10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: oldlace;
+    font-style: italic;
+    font-weight: bold;
+    font-family: square Peg, cursive;
+    font-size: larger;
+    
+}
